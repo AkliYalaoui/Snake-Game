@@ -94,7 +94,7 @@ function checkForBorders(){
         game.style.border = "2px inset red";
         setHighScore();
         alert('Oups ! You Have Lost, Try Again');
-        window.location = '/';
+        window.location.reload(); 
     }
 }
 function checkSnake(){
@@ -103,7 +103,7 @@ function checkSnake(){
         snake.style.backgroundColor = "red";
         setHighScore();
         alert('Oups ! You Have Lost, Try Again');
-        window.location = '/'; 
+        window.location.reload(); 
     }
 }
 function in_array(arr,object){
